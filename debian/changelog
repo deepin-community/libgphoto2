@@ -8,6 +8,10 @@ libgphoto2 (2.5.27-1deepin2) unstable; urgency=medium
     (CVE-125) — MEDIUM   Upstream:
     https://github.com/gphoto/libgphoto2/commit/09f8a940b1e418b5693f5c11
     e3016a1ad2cea62d
+  * fix(cve): CVE-2026-40335 (medium) - Fixed UINT128/INT128 Unchecked
+    Offset Advance (CWE-125) — MEDIUM   Upstream:
+    https://github.com/gphoto/libgphoto2/commit/433bde9888d70aa726e32744
+    cd751d7dbe94379a
 
  -- deepin-ci-robot <packages@deepin.org>  Thu, 08 Oct 2026 16:26:49 +0800
 
