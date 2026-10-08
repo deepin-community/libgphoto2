@@ -1,2 +1,3 @@
 kFreeBSD-ENODATA.patch
 CVE-2026-40333.patch
+CVE-2026-40339.patch

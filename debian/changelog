@@ -4,6 +4,10 @@ libgphoto2 (2.5.27-1deepin2) unstable; urgency=medium
     ImageFormat/CustomFuncEx Parsers Lack Length Parameter   Upstream:
     https://github.com/gphoto/libgphoto2/commit/1817ecead20c2aafa7549dac
     9619fe38f47b2f53.patch
+  * fix(cve): CVE-2026-40339 (medium) - Fixed Sony DPD FormFlag OOB Read
+    (CVE-125) — MEDIUM   Upstream:
+    https://github.com/gphoto/libgphoto2/commit/09f8a940b1e418b5693f5c11
+    e3016a1ad2cea62d
 
  -- deepin-ci-robot <packages@deepin.org>  Thu, 08 Oct 2026 16:26:49 +0800
 
