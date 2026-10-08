@@ -1,3 +1,12 @@
+libgphoto2 (2.5.27-1deepin2) unstable; urgency=medium
+
+  * fix(cve): CVE-2026-40333 (medium) - Fixed EOS
+    ImageFormat/CustomFuncEx Parsers Lack Length Parameter   Upstream:
+    https://github.com/gphoto/libgphoto2/commit/1817ecead20c2aafa7549dac
+    9619fe38f47b2f53.patch
+
+ -- deepin-ci-robot <packages@deepin.org>  Thu, 08 Oct 2026 16:26:49 +0800
+
 libgphoto2 (2.5.27-1deepin1) unstable; urgency=medium
 
   * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
