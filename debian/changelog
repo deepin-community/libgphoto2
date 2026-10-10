@@ -24,6 +24,10 @@ libgphoto2 (2.5.27-1deepin2) unstable; urgency=medium
     Missing Null Termination   Upstream:
     https://github.com/gphoto/libgphoto2/commit/259fc7d3bfe534ce4b114c46
     4f55b448670ab873
+  * fix(cve): CVE-2026-40336 (low) - Fixed Sony DPD Secondary Enum List
+    Memory Leak   Upstream:
+    https://github.com/gphoto/libgphoto2/commit/404ff02c75f3cb280196fc26
+    0a63c4d26cf1a8f6.patch
 
  -- deepin-ci-robot <packages@deepin.org>  Thu, 08 Oct 2026 16:26:49 +0800
 
