@@ -1,3 +1,36 @@
+libgphoto2 (2.5.27-1deepin2) unstable; urgency=medium
+
+  * fix(cve): CVE-2026-40333 (medium) - Fixed EOS
+    ImageFormat/CustomFuncEx Parsers Lack Length Parameter   Upstream:
+    https://github.com/gphoto/libgphoto2/commit/1817ecead20c2aafa7549dac
+    9619fe38f47b2f53.patch
+  * fix(cve): CVE-2026-40339 (medium) - Fixed Sony DPD FormFlag OOB Read
+    (CVE-125) — MEDIUM   Upstream:
+    https://github.com/gphoto/libgphoto2/commit/09f8a940b1e418b5693f5c11
+    e3016a1ad2cea62d
+  * fix(cve): CVE-2026-40335 (medium) - Fixed UINT128/INT128 Unchecked
+    Offset Advance (CWE-125) — MEDIUM   Upstream:
+    https://github.com/gphoto/libgphoto2/commit/433bde9888d70aa726e32744
+    cd751d7dbe94379a
+  * fix(cve): CVE-2026-40338 (medium) - Fixed Sony DPD Enum Count OOB
+    Read (CWE-125) — MEDIUM   Upstream:
+    https://github.com/gphoto/libgphoto2/commit/3b9f9696be76ae51dca983d9
+    dd8ce586a2561845
+  * fix(cve): CVE-2026-40341 (low) - Fixed OOB read in
+    ptp_unpack_EOS_FocusInfoEx   Upstream:
+    https://github.com/gphoto/libgphoto2/commit/c385b34af260595dfbb5f932
+    9526be5158985987
+  * fix(cve): CVE-2026-40334 (low) - [PATCH] Fixed Canon FolderEntry
+    Missing Null Termination   Upstream:
+    https://github.com/gphoto/libgphoto2/commit/259fc7d3bfe534ce4b114c46
+    4f55b448670ab873
+  * fix(cve): CVE-2026-40336 (low) - Fixed Sony DPD Secondary Enum List
+    Memory Leak   Upstream:
+    https://github.com/gphoto/libgphoto2/commit/404ff02c75f3cb280196fc26
+    0a63c4d26cf1a8f6.patch
+
+ -- deepin-ci-robot <packages@deepin.org>  Thu, 08 Oct 2026 16:26:49 +0800
+
 libgphoto2 (2.5.27-1deepin1) unstable; urgency=medium
 
   * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
